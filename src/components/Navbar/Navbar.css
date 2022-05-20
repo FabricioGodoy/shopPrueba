@@ -1,0 +1,166 @@
+:root {
+    --primary: #f5a742;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:wght@600&display=swap');
+
+#navbarScrollingDropdown, #navbarSinScroll {
+    color: white;
+    align-content: flex-start;
+}
+
+.dropdown-menu.show {
+    background: #212529;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background: var(--primary) !important;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler.collapsed {
+    color: white;
+}
+
+.element.style {
+    height: 100vh;
+}
+
+#navbarScrollingDropdown:hover, #navbarSinScroll:hover {
+    background-color: var(--primary);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.mod {
+    margin-left: -15px;
+}
+
+.dominicana {
+    font-size: 15px;
+}
+
+.setBanderas{
+    padding-right: 10px;
+    width: 25%;
+    height: 30%;
+}
+
+.staffEdit {
+    padding-left: 7px;
+}
+
+.setlogo {
+    width: 80%;
+}
+
+
+@media (min-width: 300px) and (max-width: 1000px ){
+    .setBanderas {
+      width: 5%;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 500px ){
+    .setBanderas {
+      width: 15%;
+    }
+  }
+
+  body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(10px);
+  }
+
+  .contenedorLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botonLoguearse {
+      width: 100%;
+  }
+
+  .barritaForm{
+      margin: 10px;
+  }
+
+  .colt {
+    background-color: #2b2a2f!important;
+    width: 100%;
+    height: 3%;
+  }
+
+  .barra2{
+    background-color: #2b2a2f!important;
+    height: 40px;
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .barra {
+    background-color: #222222!important;
+  }
+
+ /*  .barra2 a {
+    padding: 0;
+    margin: 0 30px;
+  
+  } */
+
+  .container-fluid {
+      flex-direction: row !important;
+  }
+
+  @media (min-width: 992px) {
+
+    .colt {
+        display: flex!important;
+        flex-basis: auto!important;;
+        flex-direction: column!important;;
+        align-content: center!important;;
+        flex-wrap: wrap!important;;
+      }
+  }
+
+  .botonNav{
+        background-color: var(--primary)!important;
+        outline: var(--primary)!important;
+        border: 1px solid var(--primary)!important;
+        margin-left: 5px;
+        color: black!important;
+  }
+
+  .botonNav:hover {
+    background-color: inherit!important;
+    outline: var(--primary)!important;
+    border: 1px solid var(--primary)!important;
+    margin-left: 5px;
+    transition: 1s all;
+    color: white!important;
+}
+
+  @media (max-width: 992px) {
+    .barra2{
+        display: none!important;
+      }
+  }
+
+.linkBoton {
+  text-decoration: none !important;
+  color: white!important;
+}
+
+.linkBoton:hover {
+  color: white!important;
+}

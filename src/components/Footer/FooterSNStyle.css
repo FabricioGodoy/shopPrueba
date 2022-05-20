@@ -1,0 +1,65 @@
+.footer_1{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer_1 h3 {
+    font-size: 20px;
+}
+
+.botonFooter {
+    background-color: var(--primary) !important;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-weight: 500;
+}
+
+.botonFooter:hover {
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+.footer_2{
+    background-color: #222a33;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.footer_3{
+    background-color: #27262b;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer_3 img{
+    margin: 20px;
+}
+
+
+
+.footer_4{
+    background-color: #222222;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.footer_4 a{
+ padding: 15px;
+}
+
+.MarcaShopnow {
+    margin-top: 20px;
+   }
+
+.email-icon {
+    width: 35px;
+}

@@ -1,0 +1,19 @@
+.flexContainer_envios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.flexContainer_envios img {
+    width: 13%;
+    margin: 0 auto;
+}
+
+@media (max-width: 810px){
+    .flexContainer_envios  {
+        display: none;
+    }
+
+  }
