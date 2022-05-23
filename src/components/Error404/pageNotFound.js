@@ -9,7 +9,7 @@ export const PageNotFound = () => {
      
          <img src='https://github.com/FabricioGodoy/imagenes/blob/main/404-error.jpg?raw=true' alt='pageNotFound' className='img404'></img>
             <button className='boton404'>
-            <i class="fa-solid fa-house iconoHome"></i>
+            <i className="fa-solid fa-house iconoHome"></i>
             <p className='textoBoton404_1'>
             IR AL INICIO
             </p>

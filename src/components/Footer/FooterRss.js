@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const FooterRss = () => {
   return (
@@ -23,9 +24,9 @@ export const FooterRss = () => {
         <div className='footer_4'>
             <div>
                 <p>JOIN THE CONVERSATION</p>
-                <a href="https://api.whatsapp.com/send?phone=541162835042&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/e3c480c2780bd3d604d2c4408488864586938688/footer/whatsapp_icon_border.svg' alt="Logo Data Fiscal"></img></a>
-                <a href="https://www.instagram.com/shopnow_arg/"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/e3c480c2780bd3d604d2c4408488864586938688/footer/instagram_icon_border.svg' alt="Logo Data Fiscal"></img></a>
-                <a href="/"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/main/footer/icono-mail.png' alt="Logo Data Fiscal" className='email-icon'></img></a>
+                <Link to="https://api.whatsapp.com/send?phone=541162835042&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/e3c480c2780bd3d604d2c4408488864586938688/footer/whatsapp_icon_border.svg' alt="Logo Data Fiscal"></img></Link>
+                <Link to="https://www.instagram.com/shopnow_arg/"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/e3c480c2780bd3d604d2c4408488864586938688/footer/instagram_icon_border.svg' alt="Logo Data Fiscal"></img></Link>
+                <Link to="/"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes-shopnow/main/footer/icono-mail.png' alt="Logo Data Fiscal" className='email-icon'></img></Link>
             </div>
             <p className='MarcaShopnow'>© ShopNow 2022</p>
         </div>

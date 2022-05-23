@@ -18,9 +18,9 @@ export const Footer = () => {
             <div className=" col-sm-4 col-md  col-6 col">
 
                 <ul className="footer_ul_amrc">
-                <li><a href="https://www.solutionboxusa.com/" target='_blank' rel="noreferrer">HOME</a></li>
-                <li><a href="https://www.solutionbox.com.uy/" target='_blank' rel="noreferrer">ACERCA DE</a></li>
-                <li><a href="https://www.solutionbox.com.do/" target='_blank' rel="noreferrer">SERVICIO AL CLIENTE</a></li>
+                <li><Link to="https://www.solutionboxusa.com/" target='_blank' rel="noreferrer">HOME</Link></li>
+                <li><Link to="https://www.solutionbox.com.uy/" target='_blank' rel="noreferrer">ACERCA DE</Link></li>
+                <li><Link to="https://www.solutionbox.com.do/" target='_blank' rel="noreferrer">SERVICIO AL CLIENTE</Link></li>
                 </ul>
             </div>
             
@@ -32,7 +32,7 @@ export const Footer = () => {
                 <li><Link to="nuestraempresa">TÉRMINOS Y CONDICIONES</Link></li>
                 <li><Link to="trabajaconnosotros">PREGUNTAS FRECUENTES</Link></li>
                 <li><Link to="rma">POLÍTICAS DE PRIVACIDAD</Link></li>
-                <li><a href="https://www.solutionbox.com.ar/info-impositiva">LEGALES</a></li>
+                <li><Link to="https://www.solutionbox.com.ar/info-impositiva">LEGALES</Link></li>
                 </ul>
             </div>
 
@@ -40,7 +40,7 @@ export const Footer = () => {
                 <div className=" col-sm-4 col-md  col-12 col">
 
                 <ul className="footer_ul_amrc">
-                <li><a href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf">MI CUENTA</a></li>
+                <li><Link to="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf">MI CUENTA</Link></li>
                 <li><Link to="capacitaciones">INFORMACIÓN PERSONAL</Link></li>
                 <li><Link to="contacto">COMPRAS</Link></li>
                 <li><Link to="pageNotFound">SEGUIR ENVÍO</Link></li>
