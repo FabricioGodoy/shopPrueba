@@ -13,6 +13,7 @@ import { HomePage } from './components/HomePage/HomePage';
 import { HomeFooter } from './components/HomeFooter/HomeFooter';
 import { CentroDeAyuda } from './components/pages/CentroDeAyuda';
 import { CancelacionCompra } from './components/pages/CancelacionCompra';
+import { PageNotFound } from './components/Error404/pageNotFound'
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
               <Route path='rma3' element= { <RmaItemFallado/> } />
               <Route path='*' element= { <Navigate to ="/" /> } />
               <Route path="/marcas/:id" element= { <ApiMap/> }/>
-              <Route path="centro_de_ayuda" element= { <CentroDeAyuda/> }/>
+              <Route path="/centro_de_ayuda" element= { <CentroDeAyuda/> }/>
+              <Route path="/pageNotFound" element= { <PageNotFound/> }/>
             </Routes>
 
         <HomeFooter/>

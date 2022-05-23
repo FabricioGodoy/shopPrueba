@@ -1,0 +1,44 @@
+.contenedor404 {
+    justify-content:center;
+    text-align: center;
+    background-color: #222222;
+}
+
+.img404 {
+    width: 100vw;
+    max-height: 50vh;
+}
+
+.boton404 {
+    width: 25vw;
+    padding: auto ;
+    margin: 1rem;
+    border-radius: 30px;
+    background-color: #f5a742;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.boton404:hover {
+    background-color:white ;
+    color:#f5a742 ;
+    box-shadow: 3px 3px 3px 3px;
+    transition: 300ms;
+}
+.iconoHome{
+    display: block;
+    margin-top: 1rem;
+}
+.textoBoton404_2{
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .textoBoton404_1{
+        display: none;
+    }
+    .textoBoton404_2{
+        display: block;
+    }
+}

@@ -43,7 +43,7 @@ export const Footer = () => {
                 <li><a href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf">MI CUENTA</a></li>
                 <li><Link to="capacitaciones">INFORMACIÓN PERSONAL</Link></li>
                 <li><Link to="contacto">COMPRAS</Link></li>
-                <li><Link to="contacto">SEGUIR ENVÍO</Link></li>
+                <li><Link to="pageNotFound">SEGUIR ENVÍO</Link></li>
                 <li><Link to="cancelacionCompra"><span className='cancelacionCompra'>SOLICITAR CANCELACION DE COMPRA</span></Link></li>
                 </ul>
 
