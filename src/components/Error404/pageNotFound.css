@@ -18,13 +18,15 @@
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
+    border: 0.4rem solid rgb(187, 38, 38);
 }
 
 .boton404:hover {
     background-color:white ;
     color:#f5a742 ;
-    box-shadow: 3px 3px 3px 3px;
-    transition: 300ms;
+   /*  box-shadow: 3px 3px 3px 3px; */
+    transition: 500ms;
+  /*   border: 0.5rem solid white */
 }
 .iconoHome{
     display: block;
