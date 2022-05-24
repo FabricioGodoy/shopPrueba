@@ -7,7 +7,7 @@ export const PageNotFound = () => {
       
        <form action="/">
      
-         <img src='https://github.com/FabricioGodoy/imagenes/blob/main/404-error.jpg?raw=true' alt='pageNotFound' className='img404'></img>
+         <img src='https://github.com/FabricioGodoy/imagenes/blob/main/imgError404/404-error.jpg?raw=true' alt='pageNotFound' className='img404'></img>
             <button className='boton404'>
             <i className="fa-solid fa-house iconoHome"></i>
             <p className='textoBoton404_1'>

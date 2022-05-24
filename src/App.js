@@ -19,9 +19,7 @@ function App() {
   return (
 
     <BrowserRouter>
-
         <Barra1/>
-        
             <Routes>
               <Route path="/" element= {<HomePage/> }/>
               <Route path="/empleados" element= { <EmpleadosLista/> }/>
@@ -39,7 +37,6 @@ function App() {
               <Route path="/centro_de_ayuda" element= { <CentroDeAyuda/> }/>
               <Route path="/pageNotFound" element= { <PageNotFound/> }/>
             </Routes>
-
         <HomeFooter/>
     </BrowserRouter> 
   );
