@@ -317,3 +317,86 @@
         flex-direction: column;        
     }
 }
+
+
+#body {
+    box-sizing: border-box;
+    background-color: rgba(61, 61, 61, 0.438);
+    border-radius: 3%;
+    padding: 5px;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    width: 25vw;
+    height: auto;
+    margin: 1rem;
+    position: relative;
+}
+#body:hover {
+    background-color: rgba(61, 61, 61, 0.411);
+    width: 23rem;
+    border-radius: 3%;
+    padding: 5px;
+    box-shadow: 5px 12px 2px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: translate(0,-0.1px);
+    transition: 0.5s all;
+}
+.contenedorCardStock{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    border: #333 solid 2px;
+    
+    text-align: center;
+}
+.cardStock{
+    display: flex;
+    width: 25vw;
+}
+.imagenStock{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    position:relative ;
+    max-width: 5vw;
+    max-height: 15vh;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 1200px){
+    .imagenStock{
+        max-width: 20vw;
+    }
+}
+
+.stockNombre{
+    display: flex;
+     color: black;
+     font-weight: bold;
+  
+}
+.stockCargo{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.botonMasInfoStock{
+    border-radius: 15px;
+    background-color: rgba(61, 61, 61, 0.411);
+    color:#f5a742;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 3px 3px 1px rgba(51, 51, 51, 0.564);
+    margin:  auto;
+    padding: 1px 20px;
+}
+.botonMasInfoStock:hover{
+    background-color: white;
+    color: #f5a742;
+    transition: 0.3s;
+}
+ 

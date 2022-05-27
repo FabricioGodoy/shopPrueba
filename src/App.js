@@ -14,7 +14,7 @@ import { HomeFooter } from './components/HomeFooter/HomeFooter';
 import { CentroDeAyuda } from './components/pages/CentroDeAyuda';
 import { CancelacionCompra } from './components/pages/CancelacionCompra';
 import { PageNotFound } from './components/Error404/pageNotFound'
-import { MostrarProductos } from './components/pages/productos'
+import { ProductoLista } from './components/DBProductos/ProductoLista'
 
 function App() {
   return (
@@ -37,7 +37,8 @@ function App() {
               <Route path="/marcas/:id" element= { <ApiMap/> }/>
               <Route path="/centro_de_ayuda" element= { <CentroDeAyuda/> }/>
               <Route path="/pageNotFound" element= { <PageNotFound/> }/>
-              <Route path="/mostrarProductos" element= { <MostrarProductos/> }/>
+              <Route path="/mostrarProductos" element= { <ProductoLista/> }/>
+              <Route path="/mostrarProductos/:catId" element= { <ProductoLista/> }/>
             </Routes>
         <HomeFooter/>
     </BrowserRouter> 
