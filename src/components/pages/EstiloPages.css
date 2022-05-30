@@ -347,13 +347,12 @@
 }
 #body:hover {
     background-color: rgba(112, 112, 112, 0.411);
-    width: 18rem;
-    margin: 15px;
-    border-radius: 5px;
+     width: 18rem;
+   border-radius: 5px;
     padding: 5px;
     box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
-    transition: 0.5s all;
+    transition: 0.3s all;
 }
 .cardStock{
     margin: 1rem 0;
