@@ -4,7 +4,7 @@ export const Productos = [
         categoria: "reloj",
         img: 'https://github.com/FabricioGodoy/imagenes/blob/main/productos/relojes/RELOJ%20AMAZFIT%20GTS%202E%20BLACK.jpg?raw=true' ,
         codigo: "W2021OV1N",
-        descripcion: "RELOJ AMAZFIT GTS 2E BLACK",
+        descripcion: "RELOJ AMAZFIT GTS 2E BLACK - 1.65''",
         marca: "AMAZFIT",
     },
     {
