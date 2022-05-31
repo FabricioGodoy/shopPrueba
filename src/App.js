@@ -15,6 +15,7 @@ import { CentroDeAyuda } from './components/pages/CentroDeAyuda';
 import { CancelacionCompra } from './components/pages/CancelacionCompra';
 import { PageNotFound } from './components/Error404/pageNotFound'
 import { ProductoLista } from './components/DBProductos/ProductoLista'
+import { DetalleProducto } from "./components/pages/DetalleProducto"
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
               <Route path="/pageNotFound" element= { <PageNotFound/> }/>
               <Route path="/mostrarProductos" element= { <ProductoLista/> }/>
               <Route path="/mostrarProductos/:catId" element= { <ProductoLista/> }/>
+              <Route path="/detalleProducto" element= { <DetalleProducto/> }/>
+              <Route path="/detalleProducto/:catId" element= { <DetalleProducto/> }/>
             </Routes>
         <HomeFooter/>
     </BrowserRouter> 

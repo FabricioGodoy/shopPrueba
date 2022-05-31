@@ -17,6 +17,7 @@ export const ProductosMapeo = ({stock}) => {
                                 <div className='cardStock-body'>
                                   <h3 className='stockNombre'>{articulo.marca}</h3>
                                   <p className='stockCargo mt-3'>{articulo.descripcion}</p>
+                                 {/*  <p className='stockCargo mt-3'>{articulo.caracteristicas}</p> */}
                                   <button className="botonMasInfoStock" type="submit">Más info...</button>
                                 </div>
                             </section>

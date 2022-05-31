@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-import { Empleadosmapeo } from '../Empleadosmapeo/Empleadosmapeo'
-import { PedirDatos } from '../helpers/PedirDatos'
+import React, { useEffect, useState} from "react";
+import { useParams } from "react-router-dom";
+import { DetalleMapeo } from "../DBProductos/DetalleProductoLista"
+import { PedirDatosArticulos } from "../helpers/pedirDatosArticulos"
 
-export function EmpleadosLista() {
+export function DetalleProducto() {
     const [loading, setLoading] = useState(false)
-    const [empleados, setEmpleados] = useState([])
+    const [producto, setProducto] = useState([])
 
     const { catId } = useParams()
 
     /* Funcion para validar el staff, coincidiendo la propiedad category con la url  */
     useEffect(() => {
         setLoading(true)
-        PedirDatos()
+        PedirDatosArticulos()
             .then((resp) => {
                 if (!catId) {
-                    setEmpleados(resp)
+                    setProducto(resp)
                 } else {
-                    setEmpleados(resp.filter(persona => persona.category === catId))
+                    setProducto(resp.filter(articulo => articulo.id === catId))
                 }
             })
             .catch((error) => {
@@ -32,9 +32,9 @@ export function EmpleadosLista() {
     /* retorna un ternario, en caso de que no este el mapeo muestra cargando */
     return (
         <>
-            {loading ? <p>Cargando...</p> : <Empleadosmapeo empleados={empleados} />}
+            {loading
+                ? <p>Cargando...</p>
+                : <DetalleMapeo producto={producto} />}
         </>
     )
 }
-
-
