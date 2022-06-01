@@ -17,7 +17,8 @@ export function DetalleProducto() {
                 if (!catId) {
                     setProducto(resp)
                 } else {
-                    setProducto(resp.filter(articulo => articulo.id === catId))
+                    // eslint-disable-next-line eqeqeq
+                    setProducto(resp.filter(articulo => articulo.id == catId))
                 }
             })
             .catch((error) => {

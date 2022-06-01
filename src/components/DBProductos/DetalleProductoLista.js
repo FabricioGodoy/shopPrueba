@@ -14,7 +14,6 @@ export const DetalleMapeo = ({producto}) => {
                       <article key={articulo.id} className='contenedorCardStock' id='body'>
                           
                                  <img src={articulo.img} className='imagenStock' alt="Foto stock"/>
-                                      <h3 className='stockNombre'>{articulo.caracteristicas}</h3>
                               
                       </article>
                   ))
@@ -23,4 +22,3 @@ export const DetalleMapeo = ({producto}) => {
       </Container>
     )
   }
-  

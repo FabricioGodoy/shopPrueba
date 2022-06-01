@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export const ProductosMapeo = ({stock}) => {
     return (
@@ -17,8 +18,9 @@ export const ProductosMapeo = ({stock}) => {
                                 <div className='cardStock-body'>
                                   <h3 className='stockNombre'>{articulo.marca}</h3>
                                   <p className='stockCargo mt-3'>{articulo.descripcion}</p>
-                                 {/*  <p className='stockCargo mt-3'>{articulo.caracteristicas}</p> */}
+                                <Link to={ `/detalleProductos/${articulo.id}` }>
                                   <button className="botonMasInfoStock" type="submit">Más info...</button>
+                                </Link>
                                 </div>
                             </section>
                       </article>

@@ -17,7 +17,9 @@ export function ProductoLista() {
                 if (!catId) {
                     setStock(resp)
                 } else {
-                    setStock(resp.filter(persona => persona.categoria === catId))
+                   
+                    // eslint-disable-next-line eqeqeq
+                    setStock(resp.filter(producto => producto.id == catId))
                 }
             })
             .catch((error) => {

@@ -39,7 +39,6 @@ function App() {
               <Route path="/centro_de_ayuda" element= { <CentroDeAyuda/> }/>
               <Route path="/pageNotFound" element= { <PageNotFound/> }/>
               <Route path="/mostrarProductos" element= { <ProductoLista/> }/>
-              <Route path="/mostrarProductos/:catId" element= { <ProductoLista/> }/>
               <Route path="/detalleProducto" element= { <DetalleProducto/> }/>
               <Route path="/detalleProducto/:catId" element= { <DetalleProducto/> }/>
             </Routes>
